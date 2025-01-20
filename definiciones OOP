@@ -1,0 +1,14 @@
+-clase abstracta: es un esqueleto para otras clases. Esta no se puede instanciar, pero si se puede usar como herencia para otras clases.
+
+-Diferencia entre implements y extends: el extends es la herencia completa, osea se hereda las propiedades y metodos.
+El implements Se utiliza para garantizar que una clase implemente los métodos y propiedades definidos en una o más interfaces.implements solo verifica que la clase cumple el contrato; no hereda comportamiento o lógica.
+Con extends significa que una clase solo puede extender una sola clase. Con implements se puede implementar multiples interfaces.
+Extends permite sobrescribir los metodos heredados. Implements obliga a definir los metodos requeridos.
+
+-clase abstract: hace que una clase no pueda ser instanciada directamente. esta diseniada para ser extendida por otras clases.
+
+-clase privada: hacer que una clase no pueda ser instanciada en otros archivos o modulos.
+
+-clase protected: solo Permite el acceso desde la clase misma y sus subclases (clases que extienden a la clase base).Es una combinación entre private (que restringe el acceso solo a la clase donde se declara) y public (que permite acceso desde cualquier parte).
+
+-static: los metodos o propiedades static se instancian sin usar el new.
